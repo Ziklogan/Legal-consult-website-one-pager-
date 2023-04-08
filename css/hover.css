@@ -1,0 +1,49 @@
+.nav-link:hover > not (:hover) {
+    color: #E0BB20;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.nav-btn:hover{
+    background-color: #fafafa;
+    color: #181818;
+    transition: .3s ease-in-out;
+}
+
+.hero-btn-1:hover {
+    background-color: #181818;
+    color: #fafafa;
+    transition: .3s ease-in-out;
+}
+
+.hero-btn-2:hover {
+    background-color: #fafafa;
+    color: #181818;
+    transition: all .3s ease-in-out;
+}
+
+
+.hero-card:hover {
+    background-color: #E0BB20;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+
+}
+
+
+.client-btn:hover {
+    background: #181818;
+}
+
+
+.consult > button:hover {
+    background-color: #fafafa;
+    color: #181818;
+    transition: .3s ease-in-out; 
+}
+
+.contact-btn:hover {
+    background-color: #181818;
+    color: #fafafa;
+    transition: .3s ease-in-out;
+}

@@ -1,0 +1,506 @@
+@import url("hover.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #181818;
+    background: #fafafa;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#hero {
+  background-image: url(../image/main\ photo.jpg);
+  height: 125vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
+}
+
+#nav {
+    display: flex;
+    background: #181818;
+    height: 80px;
+    position: relative;   
+}
+
+.nav-logo {
+    font-size: 16px;
+    color: #fafafa;
+    margin: auto 400px auto 96px;
+    font-weight: 800;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #fafafa;
+    margin: auto 16px;
+}
+
+.nav-btn {
+    font-size: 16px;
+    color: #fafafa;
+    margin: auto 20px;
+    background-color:#E0BB20;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.hero-copy {
+    color: #fafafa;
+    position: relative;
+    margin: 12rem auto 3.125rem auto;
+    text-align: center;
+    align-items: center;
+}
+
+.main-copy {
+    font-size: 5.2rem;
+    font-weight: 400;
+    line-height:1;
+    width: 80%;
+    margin: auto;
+}
+
+.sub-copy {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 2rem;
+}
+
+.hero-btn {
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    
+    position: relative;
+    gap: 10px;
+}
+
+.hero-btn-1 {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #E0BB20;
+    color: #fafafa;
+    cursor: pointer;
+    font-size: 1.2rem;
+   }
+
+.hero-btn-2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background: none;
+    border-color: #fafafa;
+    color: #fafafa;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: relative;
+    top: 80px;
+    justify-content: center;
+}
+
+.hero-card {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 4px 4px 16px 1px rgba(51, 51, 51, 0.25), 2px 2px 8px 0.5px rgba(73, 59, 59, 0.75);
+    border-radius: 8px;
+    text-align: center;   
+}
+
+.hero-card-heading {
+    font-size: 60px;
+    margin:40px auto 20px;
+}
+
+.hero-card-sub-heading {
+    font-size: 20px;
+    margin:auto 2%;
+}
+
+/* STYLING CLIENT  */
+
+#client {
+    margin: 24% 8% 5%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.client-style {
+    background-color: #E0BB20;
+    height: 10px;
+    width: 80px;
+    position: absolute;
+    left: 190px;
+    top: 1090px;
+}
+
+.styling-client {
+    background-color: #E0BB20;
+    height: 80px;
+    width: 10px;
+    position: relative;
+    left: 80px;
+    bottom: 15px;
+}
+
+.client-photo {
+    width: 350px;
+    height: 545px;
+}
+
+.client-text {
+    width: 600px;
+}
+
+.client-title {
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    width: 424px;
+    margin:24px 0 50px ;
+}
+
+.client-sub-title {
+    font-size: 20px;
+    color: #E0BB20;
+    font-weight: 600;
+}
+
+.client-caption {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.client-btn {
+    font-size: 20px;
+    width: 220px;
+    padding: 10px;
+    background-color: #E0BB20;
+    color: #fafafa;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#WhatWeDo {
+    margin: 6% auto ;
+    text-align: center;
+}
+
+.expertize > h6 {
+    color: #E0BB20;
+    font-size: 20px;
+}
+
+.expertize > h1 {
+    font-size: 50px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.expert-card {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 4px 4px 16px 1px rgba(51, 51, 51, 0.25), 2px 2px 8px 0.5px rgba(73, 59, 59, 0.75);
+    border-radius: 8px;
+    text-align: left; 
+      
+}
+
+.expert-card-heading {
+    font-size: 20px;
+    margin: 8% auto 5% 20px;
+}
+
+.expert-card-sub-heading {
+    margin: 5%;
+}
+
+.expert-card > button {
+    font-size: 20px;
+    margin-left:20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E0BB20;
+    color: #181818;
+    padding: 4px 16px;
+    border-radius: 4px;
+    border: 2px solid #181818;
+}
+
+.expert-card > button > img {
+    width: 18px;
+    height: 18px;
+    text-align:end;
+    margin-left: 10px;   
+}
+
+.expert-card > .expert-card-heading > span {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #E0BB20;
+}
+
+.consult {
+    margin:200px auto 100px;
+    background-image: url(../image/Consultation\ bg.png);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* filter: brightness(25%); */
+
+}
+
+.consultation {
+    position: relative;
+    text-align: center;
+    
+    
+}
+.consult-text {
+    color: #fafafa;
+    padding-top: 8%;
+}
+
+.consult-paragraph {
+    color: #fafafa;
+    padding: 2%;
+}
+
+.consult > button {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #E0BB20;
+    color: #fafafa;
+    cursor: pointer;
+    font-size: 1rem;
+    margin:25px 0 15px 600px ;
+}
+
+/* REVIEW CONTAINER STYLING */
+
+#Reviews-container {
+    text-align: center;
+    
+}
+
+#Reviews-container > h6  {
+    font-size: 20px;
+    color: #E0BB20;
+}
+
+#Reviews-container > h1 {
+    font-size: 50px;
+    margin: 10px auto 50px;
+}
+
+.review-card {
+    width: 300px;
+    height: 250px;
+    /* colors/neutral */
+    background: #FAFAFA;
+    /* small card */
+    box-shadow: 4px 4px 16px 1px rgba(51, 51, 51, 0.25);
+    border-radius: 8px;
+}
+
+.card-to-review {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 16px;
+}
+
+.review-avatar {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 16px;
+}
+
+.review-avatar > img {
+    margin:auto 30px 10px 0;
+}
+
+.review-card > p {
+    margin: 4%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.review-title {
+    text-align: left;
+}
+
+.review-title > h6 > span {
+    font-style: italic;
+}
+
+.style-client {
+    width: 10px;
+    background-color: #E0BB20;
+    height: 60px;
+    position: relative;
+    top: 210px;
+}
+
+.client-styling {
+    width: 60px;
+    background-color: #E0BB20;
+    height: 10px;
+    position: absolute;
+    top: 3160px;
+    right: 38px;
+}
+
+
+/* STYLING CONTACT SECTION */
+
+#contact {
+    margin: 8% auto;   
+    text-align: center;
+    padding: 5%;
+    background-image:linear-gradient(rgba(24, 24, 24, 0.5),rgba(24, 24, 24, 0.5)), url(../image/request\ bg.jpg);
+    height: 180vh;  
+}
+
+
+#contact > h6 {
+    margin:1% auto;
+    position: relative;
+    color: #E0BB20;
+}
+
+#contact > h1 {
+    margin-bottom:60px;
+    position: relative;
+    color: #FAFAFA;
+    font-size: 50px;
+}
+
+.contact-field {
+    background: #fafafa;
+    border-radius: 4px;
+    width: 800px;
+    height: 100px;
+    margin:20px auto;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 40px 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-message {
+    background: #fafafa;
+    border-radius: 4px;
+    width: 800px;
+    height: 300px;
+    margin:20px auto;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 40px 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-btn {
+    width: 800px;
+    height: 50px;
+    background: #E0BB20;
+    border-radius: 4px;
+    color: #FAFAFA;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.activity-card {
+    position: relative;
+    top: 150px;
+}
+
+.icons {
+    width:  35px;
+    height: 35px;
+    margin: 23px auto 32px;
+}
+
+.review-card > h2 {
+    font-size: 18px;
+    margin: 10px auto 30px;
+    color: #E0BB20;
+    text-transform: capitalize;
+}
+
+p.icons-text {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* FOOTER STYLING */
+
+#footer-section{
+    margin:20% auto 6%;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 96px 50px;
+}
+
+
+#footer-section > h6 {
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+
